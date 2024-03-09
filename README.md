@@ -18,7 +18,7 @@ Ceci est l'API de prédiction des prix de location du projet Getaround.
 Ele est déployée à l'adresse suvante : 
 [https://api-getaround-58fb6b190f83.herokuapp.com/](https://api-getaround-58fb6b190f83.herokuapp.com/)
 
-Vous pouvez retrouver l'ensemble du projet Getround dans [ce repository](https://github.com/thimyxuan/car-rental-delay-analysis).
+Vous pouvez retrouver l'ensemble du projet Getaround dans [ce repository](https://github.com/thimyxuan/car-rental-delay-analysis).
 
 ## Déploiement en local
 
@@ -32,7 +32,7 @@ Créer le container Docker :
 
 ## Déploiement avec Heroku
 
-Assurez-vous d'être connecté à votre compte Docker et Heroku :    
+Assurez-vous d'être connecté à vos comptes Docker et Heroku :    
 
 ```$ heroku login```
 
