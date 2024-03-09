@@ -1,6 +1,6 @@
 ## Clone
 
-```$ git clone git@github.com:thimyxuan/car-rental-delay-analysis.git```
+```$ git clone git@github.com:thimyxuan/api-car-rental-price-predictor.git```
 
 # Objet
 
