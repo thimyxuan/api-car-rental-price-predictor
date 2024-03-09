@@ -22,24 +22,26 @@ Vous pouvez retrouver l'ensemble du projet Getround dans [ce repository](https:/
 
 ## Déploiement en local
 
-Créer l'image Docker
-$ docker build . -t fastapi_env
+Créer l'image Docker :  
 
-Créer le container Docker
-$ docker run -it -v "$(pwd):/app" -p 4000:4000 fastapi_env
+```$ docker build . -t fastapi_env```
+
+Créer le container Docker :  
+
+```$ docker run -it -v "$(pwd):/app" -p 4000:4000 fastapi_env```
 
 ## Déploiement avec Heroku
 
-Assurez-vous d'être connecté à votre compte Docker et Heroku : 
+Assurez-vous d'être connecté à votre compte Docker et Heroku :    
 
-$ heroku login
+```$ heroku login```
 
-$ docker login --username=<your username> --password=$(heroku auth:token) registry.heroku.com
+```$ docker login --username=<your username> --password=$(heroku auth:token) registry.heroku.com```
 
-$ heroku create YOUR_APP_NAME
+```$ heroku create YOUR_APP_NAME```
 
-$ heroku container:push web -a YOUR_APP_NAME
+```$ heroku container:push web -a YOUR_APP_NAME```
 
-$ heroku container:release web -a YOUR_APP_NAME
+```$ heroku container:release web -a YOUR_APP_NAME```
 
-$ heroku open -a YOUR_APP_NAME
+```$ heroku open -a YOUR_APP_NAME```
