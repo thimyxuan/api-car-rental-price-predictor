@@ -50,13 +50,15 @@ if __name__ == '__main__':
     y_pred = model.predict(X_train)
     y_pred_test = model.predict(X_test)
 
-    # Print scores
-    print('R2 score on train set:', model.score(X_train, y_train))
-    print('R2 score on test set:', model.score(X_test, y_test))
-
+    # Compute scores
+    r2 =  model.score(X_train, y_train)
+    r2_test = model.score(X_test, y_test)
     mse = mean_squared_error(y_train, y_pred)
     mse_test = mean_squared_error(y_test, y_pred_test)
-
+    
+    # Print scores
+    print('R2 score on train set:', r2)
+    print('R2 score on test set:', r2_test)
     print('MSE score on train set:', mse)
     print('MSE score on test set:', mse_test)
     print('RMSE score on train set:', np.sqrt(mse))
