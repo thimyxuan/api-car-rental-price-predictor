@@ -1,6 +1,6 @@
 ## Clone
 
-```$ git clone git@github.com:thimyxuan/api-car-rental-price-predictor.git```
+```$ git clone https://github.com/thimyxuan/api-car-rental-price-predictor.git```
 
 ## Stack technique
 
@@ -29,7 +29,7 @@ Créer le container Docker :
 
 ```$ docker run -it -v "$(pwd):/app" -p 4000:4000 fastapi_env```
 
-## Déploiement avec Heroku
+## Déploiement avec Heroku (via CLI)
 
 Assurez-vous d'être connecté à vos comptes Docker et Heroku :    
 
