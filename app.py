@@ -45,7 +45,7 @@ Voici un exemple pour une voiture Peugeot rouge compacte essence avec 20000 km a
 * sans GPS
 * avec climatisation
 * à boîte manuelle
-* avec Getarount connect
+* avec Getaround Connect
 * sans régulateur de vitesse
 * sans pneus d'hiver
 
